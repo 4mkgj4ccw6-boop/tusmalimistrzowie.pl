@@ -1,0 +1,14 @@
+WERSJA PASTELOWA 2 — ZMIANY
+
+- hasło w sekcji głównej zostało rozbite na trzy estetyczne linie:
+  „Małe kroki dziś.”
+  „Wielkie umiejętności”
+  „na całe życie.”
+- dodano bardzo widoczny kafel Instagram pod menu,
+- kafel kieruje bezpośrednio do @tus_mali_mistrzowie,
+- druga sekcja została wyśrodkowana i rozciągnięta na pełną szerokość,
+- dodano cztery czytelne korzyści z pastelowymi ikonami,
+- przebudowano sekcję „O mnie” zgodnie z zaakceptowanym układem,
+- zamiast zdjęcia pozostawiono elegancki placeholder do późniejszej podmiany,
+- zachowano pastelową kolorystykę zgodną z logo,
+- strona nadal działa na telefonie, tablecie i komputerze.

@@ -1,0 +1,39 @@
+TUS MALI MISTRZOWIE — START TUTAJ
+
+1. PODGLĄD STRONY
+   Rozpakuj ZIP i otwórz plik index.html w przeglądarce.
+
+2. DARMOWA PUBLIKACJA
+   Najprościej:
+   - załóż bezpłatne konto na Netlify,
+   - wybierz opcję ręcznego wdrożenia strony,
+   - przeciągnij cały rozpakowany folder do panelu,
+   - po publikacji wykonaj próbne wysłanie formularza,
+   - w ustawieniach Netlify włącz powiadomienia o formularzu na:
+     tusmalimistrzowie@op.pl
+
+3. DANE DO UZUPEŁNIENIA PRZED PUBLIKACJĄ
+   - numer telefonu,
+   - dokładne terminy grup,
+   - faktyczna liczba wolnych miejsc,
+   - dokładna lokalizacja lub zasady jej przekazywania,
+   - weryfikacja polityki prywatności,
+   - decyzja o formie prawnej odpłatnych zajęć.
+
+4. ŁATWA EDYCJA
+   Teksty strony głównej są w index.html.
+   Kolory i wygląd: assets/css/style.css.
+   Zdjęcia: assets/images/.
+   Artykuły: folder blog/.
+   Lokalne strony SEO: folder lokalizacje/.
+
+5. WAŻNE
+   Pierwszego miejsca w Google nie można zagwarantować.
+   Widoczność zależy również od Profilu Firmy Google, opinii, jakości treści,
+   konkurencji, linków i regularnej aktualizacji strony.
+
+
+AKTUALNA WERSJA PASTELOWA
+- Kolory są dopasowane do przesłanego logo.
+- W sekcji „O mnie” jest tylko logo.
+- Gdy przygotujesz nowe zdjęcie, prześlij je w tym czacie. Zostanie dodane do strony.

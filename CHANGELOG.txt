@@ -1,0 +1,14 @@
+WERSJA FINALNA — CO ZAWIERA
+
+- responsywna strona główna na telefon i komputer,
+- sekcje: oferta, cennik, o prowadzącej, FAQ, kontakt i nabór,
+- formularz przygotowany pod bezpłatne formularze Netlify,
+- integracja z e-mailem i Instagramem,
+- trzy artykuły dla rodziców,
+- cztery lokalne strony SEO: Targówek, Bródno, Marki i Ząbki,
+- polityka prywatności jako wyraźnie oznaczony wzór roboczy,
+- formularz zgody na publikację wizerunku do wydruku,
+- robots.txt, sitemap.xml i podstawowe dane Schema.org,
+- instrukcja publikacji i edycji,
+- zabezpieczenia nagłówków dla Netlify,
+- wykorzystanie przekazanych zdjęć.

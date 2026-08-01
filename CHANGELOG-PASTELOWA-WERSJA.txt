@@ -1,0 +1,11 @@
+WERSJA PASTELOWA — ZMIANY
+
+- cała kolorystyka została dopasowana do logo:
+  pastelowa szałwia, jasny błękit, krem, morela i brzoskwinia,
+- usunięto wszystkie zdjęcia z sekcji „O mnie”,
+- w sekcji „O mnie” pozostawiono wyłącznie logo,
+- usunięto pozostałe fotografie z paczki strony,
+- logo pojawia się również w nagłówku i na pierwszym ekranie,
+- dodano delikatne animacje i subtelne efekty na kartach,
+- zachowano formularz, SEO, blog, lokalne podstrony i dokumenty,
+- dodano przygotowane miejsce do późniejszego wstawienia własnego portretu.
