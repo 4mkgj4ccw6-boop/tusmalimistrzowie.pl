@@ -226,4 +226,35 @@
 </footer>
 <div class="sticky-mobile"><a href="index.html#formularz">Zgłoś dziecko</a><a href="mailto:tusmalimistrzowie@op.pl">Napisz e-mail</a></div>
 <script src="assets/js/main.js"></script>
+  <script>
+  const formularz = document.getElementById("zgloszenie");
+
+  formularz.addEventListener("submit", async function (event) {
+    event.preventDefault();
+
+    const przycisk = formularz.querySelector('button[type="submit"]');
+    przycisk.disabled = true;
+    przycisk.textContent = "Wysyłanie...";
+
+    try {
+      const odpowiedz = await fetch(formularz.action, {
+        method: "POST",
+        body: new FormData(formularz),
+        headers: {
+          "Accept": "application/json"
+        }
+      });
+
+      if (odpowiedz.ok) {
+        window.location.href = "dziekujemy.html";
+      } else {
+        throw new Error("Nie udało się wysłać formularza");
+      }
+    } catch (blad) {
+      alert("Nie udało się wysłać zgłoszenia. Spróbuj ponownie.");
+      przycisk.disabled = false;
+      p=rzycisk.textContent = "Wyślij zgłoszenie";
+    }
+  });
+</script>
 </body></html>
