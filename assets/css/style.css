@@ -369,3 +369,21 @@ body{background:
     justify-content: center;
   }
 }
+/* Instagram i Facebook obok siebie */
+.social-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.social-grid .instagram-card {
+  width: 100%;
+  max-width: none;
+  box-sizing: border-box;
+}
+
+@media (max-width: 700px) {
+  .social-grid {
+    grid-template-columns: 1fr;
+  }
+}
