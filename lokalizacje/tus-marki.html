@@ -104,7 +104,24 @@
       .location-page .location-grid {
         grid-template-columns: 1fr;
       }
-    }
+    }.location-page .instagram-strip .container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.location-page .instagram-strip .instagram-card {
+  width: 100%;
+  max-width: none;
+  margin-top: 0 !important;
+  box-sizing: border-box;
+}
+
+@media (max-width: 700px) {
+  .location-page .instagram-strip .container {
+    grid-template-columns: 1fr;
+  }
+}
   </style>
 
   <script async
