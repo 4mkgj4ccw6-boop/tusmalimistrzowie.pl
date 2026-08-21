@@ -387,3 +387,58 @@ body{background:
     grid-template-columns: 1fr;
   }
 }
+/* Wybór grupy w formularzu */
+.group-choice {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.group-choice legend {
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+
+.group-option {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+  padding: 14px 16px;
+  border: 1px solid #d9dfc8;
+  border-radius: 14px;
+  background: #ffffff;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.group-option:hover {
+  border-color: #879d69;
+  background: #f8faF3;
+}
+
+.group-option:has(input:checked) {
+  border-color: #789259;
+  background: #eef4e5;
+  box-shadow: 0 0 0 2px rgba(120, 146, 89, 0.15);
+}
+
+.group-option input[type="radio"] {
+  width: 18px;
+  height: 18px;
+  margin: 0;
+  flex: 0 0 18px;
+  accent-color: #789259;
+}
+
+.group-option span {
+  line-height: 1.4;
+}
+
+.group-info {
+  margin: 16px 0 20px;
+  padding: 14px 16px;
+  border-radius: 14px;
+  background: #f5f2e8;
+  line-height: 1.6;
+}
