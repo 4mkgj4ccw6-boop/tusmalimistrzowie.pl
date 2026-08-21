@@ -271,34 +271,17 @@
     <div class="grid-2"><div class="field"><label for="email">Adres e-mail *</label><input id="email" name="email" type="email" required autocomplete="email"></div><div class="field"><label for="telefon">Telefon (opcjonalnie)</label><input id="telefon" name="telefon" type="tel" autocomplete="tel"></div></div>
     <div class="grid-2"><div class="field"><label for="wiek">Wiek dziecka *</label><input id="wiek" name="wiek" type="number" min="3" max="18" required></div><div class="field"><label for="rodzaj">Rodzaj zajęć</label><select id="rodzaj" name="rodzaj"><option>Proszę o pomoc w wyborze</option><option>Grupowe</option><option>Indywidualne</option></select></div></div>
     <div class="field"><label for="opis">Co jest obecnie największą trudnością?</label><textarea id="opis" name="opis" placeholder="Wystarczy kilka zdań. Nie wpisuj danych medycznych ani numeru PESEL."></textarea></div>
-    <fieldset class="field group-choice">
-  <legend>Wybierz grupę dla dziecka *</legend>
-
-  <label class="group-option">
-    <input type="radio" name="termin" value="Wtorek, godz. 17:00 — dzieci 4–6 lat" required>
-    <span>Wtorek, godz. 17:00 — dzieci 4–6 lat</span>
-  </label>
-
-  <label class="group-option">
-    <input type="radio" name="termin" value="Wtorek, godz. 18:00 — dzieci 7–9 lat">
-    <span>Wtorek, godz. 18:00 — dzieci 7–9 lat</span>
-  </label>
-
-  <label class="group-option">
-    <input type="radio" name="termin" value="Czwartek, godz. 17:00 — dzieci 10–12 lat">
-    <span>Czwartek, godz. 17:00 — dzieci 10–12 lat</span>
-  </label>
-
-  <label class="group-option">
-    <input type="radio" name="termin" value="Czwartek, godz. 18:00 — młodzież 13–15+ lat">
-    <span>Czwartek, godz. 18:00 — młodzież 13–15+ lat</span>
-  </label>
-
-  <label class="group-option">
-    <input type="radio" name="termin" value="Proszę o pomoc w wyborze grupy">
-    <span>Nie wiem, która grupa będzie odpowiednia — proszę o kontakt</span>
-  </label>
-</fieldset>
+   <div class="field">
+  <label for="termin">Wybierz grupę dla dziecka *</label>
+  <select id="termin" name="termin" required>
+    <option value="" selected disabled>Wybierz grupę</option>
+    <option value="Wtorek, godz. 17:00 — dzieci 4–6 lat">Wtorek, godz. 17:00 — dzieci 4–6 lat</option>
+    <option value="Wtorek, godz. 18:00 — dzieci 7–9 lat">Wtorek, godz. 18:00 — dzieci 7–9 lat</option>
+    <option value="Czwartek, godz. 17:00 — dzieci 10–12 lat">Czwartek, godz. 17:00 — dzieci 10–12 lat</option>
+    <option value="Czwartek, godz. 18:00 — młodzież 13–15+ lat">Czwartek, godz. 18:00 — młodzież 13–15+ lat</option>
+    <option value="Proszę o pomoc w wyborze grupy">Nie wiem, która grupa będzie odpowiednia — proszę o kontakt</option>
+  </select>
+</div>
      
     <div class="field"><label for="zrodlo">Skąd dowiedzieli się Państwo o zajęciach?</label><select id="zrodlo" name="zrodlo"><option>Google</option><option>Instagram</option><option>Polecenie</option><option>Szkoła lub przedszkole</option><option>Inne</option></select></div>
     <div class="checks"><label><input type="checkbox" name="privacy" required> <span>Wyrażam zgodę na wykorzystanie podanych danych wyłącznie w celu odpowiedzi na zgłoszenie. Zapoznałem(-am) się z <a href="dokumenty/polityka-prywatnosci.html"><u>polityką prywatności</u></a>. *</span></label></div>
